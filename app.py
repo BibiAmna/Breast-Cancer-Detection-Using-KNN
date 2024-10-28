@@ -2,6 +2,7 @@ import streamlit as st
 import pickle as pkl
 import numpy as np
 import pandas as pd
+from sklearn.neighbors import NearestNeighbors
 
 # Load the model from the pickle file
 with open('BreastCancerPrediction.pkl', 'rb') as file:
